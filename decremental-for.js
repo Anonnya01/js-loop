@@ -9,6 +9,8 @@
 // }
 
 
-for(let i = 20; i >= 11; i--){
-    console.log(i);
-}
+// for(let i = 20; i >= 11; i--){
+//     console.log(i);
+// }
+for(let n =30; n>=20 ; n--){
+    console.log(n);}
