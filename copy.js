@@ -7,3 +7,5 @@ const sorted = number.sort(function (a, b) {
   return a - b;
 });
 console.log(sorted);
+
+// My name is nai
