@@ -62,13 +62,13 @@
 
 //---------- Reverse----------//
 
-const drink ='Strawberry matcha latte with whole milk';
-let revers = ''
-for(const letter of drink){
-    revers= letter + revers;
+// const drink ='Strawberry matcha latte with whole milk';
+// let revers = ''
+// for(const letter of drink){
+//     revers= letter + revers;
     
-}
- console.log(revers);
+// }
+//  console.log(revers);
    
     
 
@@ -90,3 +90,35 @@ for(const letter of drink){
 
 
 
+
+// const sen = "dustu chele sazid"
+// const words = sen.split(" ")
+// const targetedWord = words[0]
+// const firstWord = targetedWord.split("")
+// const firstWordFirstLetter = firstWord[0]
+// const uppercaseLetter =  firstWordFirstLetter.toUpperCase()
+// const restWords = firstWord.slice(1) 
+// words[0]  = uppercaseLetter + restWords.join("")
+
+// const result = words.join(" ")
+
+// console.log(result);
+
+
+
+const sen =  "dustu meye anonnya"
+
+const words = sen.split(" ")
+
+//  [ "dustu" "meye" "anonnya"]
+
+for(let i = 0; i < words.length; i++){
+    const letters = words[i].split("") 
+    const firstLetters = letters[0].toUpperCase();
+    const restLetters = letters.slice(1).join("");
+    words[i] = firstLetters + restLetters
+}
+
+const result = words.join(" ")
+
+console.log(result);
